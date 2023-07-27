@@ -7,5 +7,16 @@
 
 .buttons{
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 
+.button-each{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#text-area{
+    box-sizing: border-box;
+    width: 100%;
+}
