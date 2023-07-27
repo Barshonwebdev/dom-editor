@@ -1,11 +1,11 @@
-.editor-section{
+#editor-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.buttons{
+#buttons{
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
