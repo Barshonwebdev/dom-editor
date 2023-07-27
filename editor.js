@@ -20,7 +20,24 @@ document.getElementById("underline-button").addEventListener("click", function (
   const underline = (textElement.style.textDecoration = "underline");
 });
 
-document.getElementById("normal-button").addEventListener("click", function () {
-  const textElement = document.getElementById("text-area");
-  const normal = (textElement.style.fontWeight = "normal");
+document.getElementById("color-button").addEventListener("click", function () {
+  const inputColor=document.getElementById("color-input");
+  const color=inputColor.value;
+  const textElement=document.getElementById("text-area");
+  textElement.style.color=color;
 });
+
+function alignText(style){
+    const textElement=document.getElementById("text-area");
+    textElement.style.textAlign=style;
+}
+
+document.getElementById("left-button").addEventListener("click",function(){
+    alignText("left");
+})
+document.getElementById("middle-button").addEventListener("click",function(){
+    alignText("center");
+})
+document.getElementById("right-button").addEventListener("click",function(){
+    alignText("right");
+})

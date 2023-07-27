@@ -13,11 +13,19 @@
 }
 
 .button-each{
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 1px;
+    margin-left: 1px;
 }
 
 #text-area{
     box-sizing: border-box;
     width: 100%;
+}
+
+#color-input{
+    margin-left: 20px;
+}
+
+#left-button{
+    margin-left: 20px;
 }
